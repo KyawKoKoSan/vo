@@ -1,0 +1,63 @@
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,700&display=swap');
+//
+//$font-family-sans-serif : 'Montserrat', sans-serif;
+$primary : #826cb1;
+$light : #e7f3ff;
+*::-webkit-scrollbar{
+  -webkit-appearance: none;
+}
+*::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+*::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #e7f3ff; /* should match background, can't be transparent */
+  background-color: $primary;
+}
+*::-webkit-scrollbar-track {
+  background-color: #e7f3ff;
+  border-radius: 8px;
+}
+@import "../../../assets/vendor/morph/variables";
+@import "../../../assets/vendor/bootstrap/scss/bootstrap";
+@import "../../../assets/vendor/morph/bootswatch";
+
+.nav-menu{
+
+}
+.menu-title{
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #949494;
+}
+.nav-menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item-link{
+  padding: 10px;
+  transition: 0.5s;
+}
+.menu-item-link.active{
+  background-color: $primary;
+  border-radius: 0.25rem;
+  i,small{
+    color: white;
+    font-weight: normal;
+  }
+  }
+.menu-spacer{
+  padding: 5px 0;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  margin: 13px 2px;
+  white-space: nowrap;
+  justify-content: center;
+}
