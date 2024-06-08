@@ -7,8 +7,3 @@
 
 
 <?php include "template/footer.php"; ?>
-
-
-
-
-</script>

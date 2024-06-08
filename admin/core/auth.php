@@ -3,5 +3,5 @@
 session_start();
 
 if (!$_SESSION['user']) {
-    header("location:admins_list.php");
+    header("location:login.php");
 }
